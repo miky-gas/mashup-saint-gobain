@@ -1,0 +1,10 @@
+{
+    "development": {
+      "FILEURL": "_configenv/config-dev.jsx",
+      "WEBINTEGRATIONID": ""      
+    },
+    "production": {
+      "FILEURL": "_configenv/config-pro.jsx",
+      "WEBINTEGRATIONID": ""
+    }
+  }

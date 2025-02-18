@@ -1,0 +1,75 @@
+.dx-widget{
+    font-family: var(--font-family); 
+}
+.dx-context-menu .dx-submenu {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #595959;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 250px;
+    position: relative;
+    transition: opacity .2s ease-out;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid #d7d2d2;
+    font-family: var(--font-family);
+}
+.dx-menu-base .dx-menu-item-wrapper {
+    min-height: 35px;
+    background-clip: padding-box;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: #595959;
+    transition: background-color 50ms ease-out;
+}
+.dx-menu-base .dx-menu-item-wrapper:last-child {
+    border-bottom: none;
+}
+.dx-menu-base .dx-menu-item .dx-menu-item-content {
+    font-size: 0.8rem;
+    color: #595959;
+}
+.dx-popup-wrapper .dx-state-focused.dx-overlay-content{
+    border: 1px solid #ddd;
+}
+/* FILTERS EN PÁGINA */
+.filters-page{
+    position: absolute;
+    height: 46px;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 999;
+}
+.filters-page .item-filter-page{
+    position: relative;
+    height: 100%;
+    width: 180px;
+}
+.filters-page .item-filter-page .native-chart {
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+}
+.filters-page .item-filter-page .native-chart .listbox-popover-container{
+    background: #fff;
+}
+
+.speeldial:has(+ .qv-object-MzKPI) {
+    display: none;
+}
+.native-chart .qv-object {
+    background: transparent !important;
+}
+.MzGenaro.mz-context-menu {
+    display: none !important;
+}

@@ -1,0 +1,22 @@
+#mz-contextmenu{
+    position: fixed;
+    z-index: 9999999;
+}
+#mz-contextmenu .qv-contextmenu .lui-popover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid #d7d2d2;
+}
+#mz-contextmenu .qv-contextmenu .lui-list__item {
+    min-height: 35px;
+    cursor: pointer;
+}
+
+#mz-contextmenu .qv-contextmenu .lui-list__item .item-icon.lui-icon{
+    color: #595959 !important;
+}
+#mz-contextmenu .lui-list__aside {
+    width: auto !important;
+}
+#mz-contextmenu .qv-contextmenu .lui-list__item .lui-list__text {
+    font-size: 0.8rem;
+}
