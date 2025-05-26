@@ -11,10 +11,13 @@ const RetencionDashboard = (props) => {
         <React.Fragment>
                 <div className="flex-component" id="scrollable-view">
                   
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-50 mzh-sm-100 mzh-xs-100 mzh-100 box_object">
+                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-50 mzh-sm-100 mzh-xs-100 mzh-100 box_object">
                         <GenericQlikObject aplication={props.aplication} qlikObjectID={'Pjjse'} visual="" onObjectLoaded={ObjectLoaded} location={ROUTER.globals.current.name} router={ROUTER}></GenericQlikObject>
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-50 mzh-sm-100 mzh-xs-100 mzh-100 box_object">
+                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-50 mzh-sm-100 mzh-xs-100 mzh-100 box_object">
+                        <GenericQlikObject aplication={props.aplication} qlikObjectID={'JFALTK'} visual="" onObjectLoaded={ObjectLoaded} location={ROUTER.globals.current.name} router={ROUTER}></GenericQlikObject>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-50 mzh-sm-100 mzh-xs-100 mzh-100 box_object">
                         <GenericQlikObject aplication={props.aplication} qlikObjectID={'YqzWQq'} visual="" onObjectLoaded={ObjectLoaded} location={ROUTER.globals.current.name} router={ROUTER}></GenericQlikObject>
                     </div>
                   

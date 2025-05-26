@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-labels
 arrApps: [
     {
-        name: 'Ventas',
+        name: 'Formación',
         idapp: 'Formación EHS',          
         init: false,
         load: false,

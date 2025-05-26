@@ -61,6 +61,14 @@ export default [
             idFav: null,
             IDFILTRO: 'PmmtmQ',
             PATH: ['Matriz'],
+            OBJECTSTOP: {
+                arrObject: [
+                    {
+                        idObject: '',
+                        widthObjetx: 0
+                    }
+                ]
+            },
             HIDESELECTIONBAR: true
         }
     }
