@@ -165,11 +165,11 @@ function MainMenu() {
                                     </a>
                                 </UISref>
                             </li>
-                            <li onClick={() => !parent.includes('home.MWC') && handleShowBlock()} className={parent.includes('home.MWC') ? 'active-item' : ''}>
-                                <UISref to="home.MWC.Dashboard">
+                            <li onClick={() => !parent.includes('home.WCM') && handleShowBlock()} className={parent.includes('home.WCM') ? 'active-item' : ''}>
+                                <UISref to="home.WCM.Dashboard">
                                     <a href="javascript:void(0)" className="menu-item">
                                     <i class="ri-lightbulb-flash-line"></i>
-                                        <p className='menu-item-text'>MWC</p>
+                                        <p className='menu-item-text'>WCM</p>
                                     </a>
                                 </UISref>
                             </li>

@@ -150,14 +150,14 @@ const WelcomePage = () => {
                   </div>
                   <div id="context-menu-container"></div>
                 </div>
-                <div title="MWC" className="item-wellcome-menu" id="item-MWC">
+                <div title="WCM" className="item-wellcome-menu" id="item-WCM">
                   <div className="item-content" onClick={() => handleShowBlock()}>
-                    <UISref to="home.MWC.Dashboard">
+                    <UISref to="home.WCM.Dashboard">
                       <a className="menu-item" href="javascript:void(0)">
                         <span className="icon-itemmenu">
                         <i class="ri-lightbulb-flash-line"></i>
                         </span>
-                        <span className="namee">MWC</span>
+                        <span className="namee">WCM</span>
                       </a>
                     </UISref>
                   </div>

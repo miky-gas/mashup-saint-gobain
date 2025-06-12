@@ -3,21 +3,21 @@ import { renderComponentOnEnter } from './_routes';
 import GSenseApp from '@config/configGlobal.jsx';
 const GenericView = React.lazy(() => import('@pages/GenericView/GenericView'));
 const UiView = React.lazy(() => import('@pages/UiView/UiView'));
-const MWCDashboard = React.lazy(() => import('@pages/MWC/MWCDashboard'));
+const WCMDashboard = React.lazy(() => import('@pages/WCM/WCMDashboard'));
 const arrApps = GSenseApp.arrApps;
 const INDEXAPLICATION = 0;
 export default [
     {
-        name: 'home.MWC',
+        name: 'home.WCM',
         component: GenericView,
         abstract: true,
         nodeParent: true,
-        label: 'menu.MWC',
+        label: 'menu.WCM',
         params: {            
             indexApp: INDEXAPLICATION,
-            MENUTOP: 'MWCMenu',
+            MENUTOP: 'WCMMenu',
             isModule: true,
-            moduleName: 'MWC'
+            moduleName: 'WCM'
         },
         resolvePolicy: { async: 'WAIT' },
         resolve: [
@@ -51,9 +51,9 @@ export default [
         onExit: renderComponentOnEnter
     },
     {
-        name: 'home.MWC.Dashboard',
-        url: '/MWC',
-        component: MWCDashboard,
+        name: 'home.WCM.Dashboard',
+        url: '/WCM',
+        component: WCMDashboard,
         label: 'Dashboard',
         toSheet: true,
         params: {
@@ -66,7 +66,7 @@ export default [
                     { title: 'Datos Usuario', idFiltro: 'CPhQDPP' },
                 ]
             },
-            PATH: ['MWC'],
+            PATH: ['WCM'],
             OBJECTSTOP: {
                 arrObject: [
                     {

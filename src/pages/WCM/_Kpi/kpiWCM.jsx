@@ -1,7 +1,7 @@
 import React, { useEffect, Suspense } from 'react';
 import { useRouter } from "@uirouter/react";
 const GenericQlikObject = React.lazy(() => import('@components/GenericQlikObject/GenericQlikObject'));
-const KpiMWC = ({ aplication, ObjectLoaded }) => {
+const KpiWCM = ({ aplication, ObjectLoaded }) => {
     const ROUTER = useRouter();
     useEffect(() => {
         ObjectLoaded();
@@ -47,4 +47,4 @@ const KpiMWC = ({ aplication, ObjectLoaded }) => {
     );
 };
 
-export default KpiMWC;
+export default KpiWCM;

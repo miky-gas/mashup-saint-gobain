@@ -4,7 +4,7 @@ import useQlikObjectsLoader from '@hooks/useQlikObjectsLoader';
 const GenericQlikObject = React.lazy(() => import('@components/GenericQlikObject/GenericQlikObject'));
 const FiltersComponent = React.lazy(() => import('@components/_features/FiltersComponent/FiltersComponent'));
 
-const MWCDashboard = (props) => {
+const WCMDashboard = (props) => {
     const { loadedComponentsAll, ObjectLoaded, partialObjectLoaded, ROUTER } = useQlikObjectsLoader();
 
     return (
@@ -23,4 +23,4 @@ const MWCDashboard = (props) => {
     );
 };
 
-export default MWCDashboard;
+export default WCMDashboard;

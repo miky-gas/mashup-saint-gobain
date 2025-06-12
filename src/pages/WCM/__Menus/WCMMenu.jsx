@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const SimpleQlikObject = React.lazy(() => import('@components/_features/SimpleQlikObject/SimpleQlikObject'));
 import { useMenuNavigation } from '@hooks/useMenuNavigation'; // Importar el hook
 
-const MWCMenu = (props) => {
+const WCMMenu = (props) => {
     const { t } = useTranslation();
     const {
         scrollMenu,
@@ -36,9 +36,9 @@ const MWCMenu = (props) => {
                         <ul id="listaMenuContenidos" ref={listaMenuContenidosRef}>
                             <UISrefActive className="active-item">
                                 <li onMouseEnter={handleMouseEnter}>
-                                    <UISref to="home.MWC.Dashboard">
+                                    <UISref to="home.WCM.Dashboard">
                                         <a href="javascript:void(0)" className="menu-item">
-                                            <span className="menu-item-text">MWC</span>
+                                            <span className="menu-item-text">WCM</span>
                                         </a>
                                     </UISref>
                                 </li>
@@ -131,4 +131,4 @@ const MWCMenu = (props) => {
     );
 };
 
-export default MWCMenu;
+export default WCMMenu;

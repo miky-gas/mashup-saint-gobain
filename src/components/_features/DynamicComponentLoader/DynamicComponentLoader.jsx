@@ -9,7 +9,7 @@ const componentMap = {
   'RetencionMenu': lazy(() => import('@pages/Retencion/__Menus/RetencionMenu')),
   'AdHocMenu': lazy(() => import('@pages/Adhoc/__Menus/AdhocMenu')),
   'InformesMenu': lazy(() => import('@pages/Informes/__Menus/InformesMenu')),
-  'MWCMenu': lazy(() => import('@pages/MWC/__Menus/MWCMenu')),
+  'WCMMenu': lazy(() => import('@pages/WCM/__Menus/WCMMenu')),
   'MatrizMenu': lazy(() => import('@pages/Matriz/__Menus/MatrizMenu')),
 
   // Agrega más componentes según sea necesario

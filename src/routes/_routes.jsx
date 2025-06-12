@@ -15,7 +15,7 @@ import RealvsEstimadoRoutes from './RealvsEstimadoRoutes';
 import RetencionRoutes from './RetencionRoutes';
 import AdHocRoutes from './AdHocRoutes';
 import InformesRoutes from './InformesRoutes';
-import MWCRoutes from './MWCRoutes';
+import WCMRoutes from './WCMRoutes';
 import MatrizRoutes from './MatrizRoutes';
 
 import { createRoot } from 'react-dom/client';
@@ -73,7 +73,7 @@ export const STATESROUTES = [
   ...RetencionRoutes,
   ...AdHocRoutes,
   ...InformesRoutes,
-  ...MWCRoutes,
+  ...WCMRoutes,
   ...MatrizRoutes
 ];
 
