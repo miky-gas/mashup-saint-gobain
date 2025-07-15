@@ -12,7 +12,7 @@ const WCMDashboard = (props) => {
                 <div className="flex-component" id="scrollable-view">
                  
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mzh-xl-100 mzh-lg-100 mzh-md-100 mzh-sm-300 mzh-xs-100 mzh-100 box_object">
-                        <GenericQlikObject aplication={props.aplication} qlikObjectID={'qFCjb'} visual="" onObjectLoaded={ObjectLoaded} location={ROUTER.globals.current.name} router={ROUTER}></GenericQlikObject>
+                        <GenericQlikObject aplication={props.aplication} qlikObjectID={'jUPrm'} visual="" onObjectLoaded={ObjectLoaded} location={ROUTER.globals.current.name} router={ROUTER}></GenericQlikObject>
                     </div>
                    
                   
