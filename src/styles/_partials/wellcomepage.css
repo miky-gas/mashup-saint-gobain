@@ -383,6 +383,12 @@ min-height: 172px;
   font-size:clamp(18px, 2.8vw, 3rem);
   color: #fff;
 }
+
+#menu-wellcome .item-content .icon-itemmenu > img{
+width: 35px !important;
+height: 35px !important;
+}
+
 #menu-wellcome .item-content .namee {
   font-size: 1.2rem;
   font-size:clamp(12px, 1vw, 1.2rem);

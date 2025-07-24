@@ -169,7 +169,7 @@ const WelcomePage = () => {
                     <UISref to="home.Matriz.Dashboard">
                       <a className="menu-item" href="javascript:void(0)">
                         <span className="icon-itemmenu">
-                        <i class="ri-box-3-line"></i>
+                        <img src="assets/img/WCM_35W.ico" />
                         </span>
                         <span className="namee">MATRIZ</span>
                       </a>
