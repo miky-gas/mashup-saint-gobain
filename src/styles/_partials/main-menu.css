@@ -89,12 +89,27 @@
   color: #fff;
   position: relative;
 }
-
+.mainMenu .sidebar-wrapper .list-nav img {
+  margin-left: 19px;
+	height: 24px;
+	width: 24px;
+}
 .mainMenu .sidebar-wrapper .list-nav li.active-item>a,
 .mainMenu .sidebar-wrapper .list-nav li:hover>a {
   background-color: #ADBDD6 !important;
   box-shadow: none !important;
   /* color: #f5f5f5 !important; */
+}
+.matriz_a {
+  display: inline-flex !important;
+	flex-direction: row !important;
+	align-items: anchor-center !important;
+	justify-content: space-between !important;
+}
+
+.matriz_p {
+  margin-left: 20px !important;
+	width: 145px !important;
 }
 
 .sidebar-collapsed .mainMenu {

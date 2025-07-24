@@ -178,9 +178,9 @@ function MainMenu() {
 
                             <li onClick={() => !parent.includes('home.Matriz') && handleShowBlock()} className={parent.includes('home.Matriz') ? 'active-item' : ''}>
                                 <UISref to="home.Matriz.Dashboard">
-                                    <a href="javascript:void(0)" className="menu-item">
-                                    <i class="ri-box-3-line"></i>
-                                        <p className='menu-item-text'>MATRIZ</p>
+                                    <a href="javascript:void(0)" className="menu-item matriz_a">
+                                    <img src="assets/img/WCM_24.ico" />
+                                        <p className='menu-item-text matriz_p'>MATRIZ</p>
                                     </a>
                                 </UISref>
                             </li>
