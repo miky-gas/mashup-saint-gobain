@@ -18,13 +18,11 @@ const GSenseApp = {
      */
 
     /*-- No eliminar el comentario siguiente, lo usamos desde GULP para añadir el array de aplicaciones */
-    
-// eslint-disable-next-line no-unused-labels
+    // eslint-disable-next-line no-unused-labels
 arrApps: [
     {
         name: 'Formación',
-        //idapp: 'baacf182-d1bf-47ba-b4d3-2296d4cd8742', 
-        idapp: '7419ab30-7acd-483d-a01e-5aebd774cd66',            
+        idapp: 'Formación EHS',          
         init: false,
         load: false,
         bookmarkApp:{
@@ -35,11 +33,9 @@ arrApps: [
     }
 ],
 APICONFIG : {
-    host: 'https://demosense.mercanza.es:4000',
-    application_id : 1
+    host: 'https://dev-sense.mercanza.net:4000',
+    application_id : 2
 },
-
-
     init: {
         demo: false,
         listLanguages: ['es', 'en'],

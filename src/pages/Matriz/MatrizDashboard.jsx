@@ -65,16 +65,21 @@ const MatrizDashboard = (props) => {
             setControlEquipo(existeEquipo);
             setControlSubPerfil(existeSubPerfil);
 
-            if (existeEquipo) {
+            
+ 
+             if (existeEquipo) {
                 setSizeEquipo(filterArr.filter((filtro) => filtro.qField === 'CentroEquipo.Nombre')[0].qStateCounts.qSelected);
                 const titulo = filterArr.filter((filtro) => filtro.qField === 'CentroEquipo.Nombre');
-                if (titulo.length === 1) {
-                    console.log(titulo, 'titulo')
+                    
+                setTitleEquipo(titulo[0].qSelected)
+
+                /* if (titulo.length === 1) {
+                    // console.log(titulo, 'titulo')
                     setTitleEquipo(titulo[0].qSelected)
                 } else {
-                    console.log(titulo, 'titulo')
+                    // console.log(titulo, 'titulo')
                     setTitleEquipo()
-                }
+                } */
             } else {
                 setSizeEquipo(0);
             }
@@ -83,10 +88,9 @@ const MatrizDashboard = (props) => {
                 setSizeSubPerfil(filterArr.filter((filtro) => filtro.qField === 'Subperfil.Nombre')[0].qStateCounts.qSelected);
             } else {
                 setSizeSubPerfil(0);
-            }
+            } 
+        } );
 
-
-        });
         // Función de limpieza
         return () => {
             removeSessionSelection();
@@ -794,7 +798,8 @@ const MatrizDashboard = (props) => {
                     </div>
                 </div>
 
-                {controlEquipo && controlSubPerfil && controlOperaciones === 1 && sizeEquipo === 1 && sizeSubPerfil === 1 ? (
+                {/* {controlEquipo && controlSubPerfil && controlOperaciones === 1 && sizeEquipo === 1 && sizeSubPerfil === 1 ? ( */}
+                {controlEquipo && controlSubPerfil && controlOperaciones === 1 ? (    
                     <div className='cover-matriz'>
                         <Popover
                             target="#info"
@@ -1068,8 +1073,9 @@ const MatrizDashboard = (props) => {
                     </div>
                 ) : (
                     controlEquipo || controlSubPerfil || controlOperaciones != 1 && controlOperaciones != null ? (
+                    // controlEquipo || controlOperaciones != 1 && controlOperaciones != null ? (
                         <div className='empty-datos'>
-                            <h2>Seleccione un Equipo y un Subperfil</h2>
+                            <h2>Seleccione algún Equipo y algún Subperfil</h2>
                         </div>
                     ) : (
                         <div className='empty-datos'>
