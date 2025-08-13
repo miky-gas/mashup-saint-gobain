@@ -22,7 +22,7 @@ const GSenseApp = {
 arrApps: [
     {
         name: 'Formación',
-        idapp: 'Formación EHS',          
+        idapp: 'MatrizDev',          
         init: false,
         load: false,
         bookmarkApp:{
@@ -33,7 +33,7 @@ arrApps: [
     }
 ],
 APICONFIG : {
-    host: 'https://dev-sense.mercanza.net:4000',
+    host: 'http://localhost:4848/',
     application_id : 2
 },
     init: {

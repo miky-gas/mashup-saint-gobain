@@ -85,7 +85,8 @@ const MatrizDashboard = (props) => {
             }
 
             if (existeSubPerfil) {
-                setSizeSubPerfil(filterArr.filter((filtro) => filtro.qField === 'Subperfil.Nombre')[0].qStateCounts.qSelected);
+                 setSizeSubPerfil(filterArr.filter((filtro) => filtro.qField === 'Subperfil.Nombre')[0].qStateCounts.qSelected);
+                //setSizeSubPerfil(1);
             } else {
                 setSizeSubPerfil(0);
             } 
@@ -799,7 +800,7 @@ const MatrizDashboard = (props) => {
                 </div>
 
                 {/* {controlEquipo && controlSubPerfil && controlOperaciones === 1 && sizeEquipo === 1 && sizeSubPerfil === 1 ? ( */}
-                {controlEquipo && controlSubPerfil && controlOperaciones === 1 ? (    
+                {controlEquipo && controlSubPerfil   ? (    
                     <div className='cover-matriz'>
                         <Popover
                             target="#info"
